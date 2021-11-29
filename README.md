@@ -16,8 +16,8 @@ In order to run the code the following steps should be performed:
 1. clone repository at your local disk by using command: `git clone https://github.com/bhrnjica/quenching_simulation.git`
 2. Enter the directory `cd quenching_simulation`
 3. Run build command depending on the OS:
-   1. For Windows:  `dotnet restore --project qs-windows.csproj` then `dotnet build --project qs-windows.csproj`
-   2. For Linux:  `dotnet restore --project qs-linux.csproj` then `dotnet build --project qs-linux.csproj`
+   1. For Windows:  `dotnet restore qs-windows.csproj` then `dotnet build qs-windows.csproj`
+   2. For Linux:  `dotnet restore qs-linux.csproj` then `dotnet build qs-linux.csproj`
 4. Run the simulation with one of the supported command line args:
    1. For Windows: `dotnet run --[DxH] --[quenchant] --project qs-windows.csproj`,
    2. For Linux: `dotnet run --[DxH] --[quenchant] --project qs-linux.csproj`
