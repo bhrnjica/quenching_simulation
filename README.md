@@ -33,6 +33,6 @@ Supported arguments
 
 ## Examples
 
-The following command run the simulation for cylinder 50x150 with Aquatensid5%: `dotnet run --50x150 --aquatensid5%`
+The following command run the simulation for cylinder 50x150 with Aquatensid5% in Windows: `dotnet run --50x150 --aquatensid5% --project qs-windows.csproj`
 
-Run similar command to view results: `dotnet run --50x150 --aquatensid5% --result`
+Run similar command to view results only on Linux: `dotnet run --50x150 --aquatensid5% --result --project qs-linux.csproj`
