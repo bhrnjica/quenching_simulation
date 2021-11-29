@@ -19,7 +19,7 @@ namespace FEM.Quenching
         static void Main(string[] args)
         {
             var cylinders = new string[] { "25x100" };//, "50x150", "75x225" };
-            var quenchants = new string[] { "H2O" } ;// }, "Aquatensid5%", "Isorapid" };
+            var quenchants = new string[] { "h2o" } ;// }, "Aquatensid5%", "Isorapid" };
             var result = false;
             var folder = "quenching_simulation";
             var path= Directory.GetCurrentDirectory();
@@ -36,15 +36,17 @@ namespace FEM.Quenching
             else if (arguments.Length <= 1)
             {
                 cylinders = new string[] { "25x100" , "50x150", "75x225" };
-                quenchants = new string[] { "H2O", "Aquatensid5%", "Isorapid" };
+                quenchants = new string[] { "h2o", "aquatensid5%", "isorapid" };
 
             }
             else 
             {
                 if(arguments[1] == "--all")
                     cylinders = new string[] { "25x100" , "50x150", "75x225" };
-                else if (arguments[1] == "--25x100" ||arguments[1] == "--50x150" || arguments[1] == "--75x225")
-                     cylinders = new string[] {arguments[1].Substring(2) };
+
+                else if (arguments[1].ToLower() == "--25x100" ||arguments[1].ToLower() == "--50x150" || arguments[1].ToLower() == "--75x225")
+                     cylinders = new string[] {arguments[1].ToLower().Substring(2) };
+                
                 else
                 {
                     Console.Write("Cylinder Command line arg is not valid. Example: (--all or --25x100 or --50x150 or 75x225)");
@@ -52,9 +54,11 @@ namespace FEM.Quenching
                 }
 
                 if(arguments[2] == "--all")
-                    quenchants = new string[] { "H2O", "Aquatensid5%", "Isorapid" };
-                else if (arguments[2] == "--H2O" || arguments[2] == "--aquatensid5%" || arguments[2] == "--isorapid")
-                     quenchants = new string[] {arguments[2].Substring(2) };
+                    quenchants = new string[] { "h2o", "aquatensid5%", "isorapid" };
+
+                else if (arguments[2].ToLower() == "--h2o" || arguments[2].ToLower() == "--aquatensid5%" || arguments[2].ToLower() == "--isorapid")
+                     quenchants = new string[] {arguments[2].ToLower().Substring(2) };
+                
                 else
                 {
                     Console.Write("Quenchant Command line arg is not valid. Example: (--all or --H2O or --aquatensid5% or --isorapid)");
