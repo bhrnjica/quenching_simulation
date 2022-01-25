@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<Platforms>x64</Platforms>
+	<Configurations>Debug;Release</Configurations>
+	<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+</Project>

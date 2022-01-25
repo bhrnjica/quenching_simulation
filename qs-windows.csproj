@@ -2,11 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+	<LangVersion>10.0</LangVersion>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Platforms>x64</Platforms>
     <Configurations>Debug;Release</Configurations>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,12 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="FEMCommon">
-      <HintPath>lib\FEMCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="FEMHeatLib">
-      <HintPath>lib\FEMHeatLib.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="common\common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
