@@ -16,11 +16,11 @@ In order to run the code the following steps should be performed:
 1. clone repository at your local disk by using command: `git clone https://github.com/bhrnjica/quenching_simulation.git`
 2. Enter the directory `cd quenching_simulation`
 3. Run build command depending on the OS:
-   1. For Windows:  `dotnet restore qs-windows.csproj` then `dotnet build qs-windows.csproj`
-   2. For Linux:  `dotnet restore qs-linux.csproj` then `dotnet build qs-linux.csproj`
+   1. For Windows:  `dotnet restore qs-windows.sln` then `dotnet build qs-windows.sln`
+   2. For Linux:  `dotnet restore qs-linux.sln` then `dotnet build qs-linux.sln`
 4. Run the simulation with one of the supported command line args:
-   1. For Windows: `dotnet run --[DxH] --[quenchant] --project qs-windows.csproj`,
-   2. For Linux: `dotnet run --[DxH] --[quenchant] --project qs-linux.csproj`
+   1. For Windows: `dotnet run --[DxH] --[quenchant] --project qs-windows.sln`,
+   2. For Linux: `dotnet run --[DxH] --[quenchant] --project qs-linux.sln`
 
 Supported arguments
 -  for cylinder dimensions are:
@@ -28,11 +28,11 @@ Supported arguments
 - for quenchants: `[quenchant]=H2O, aquatensid5%, isorapid`
 
 5. Once the simulations are calculated the result can be shown by command:
-   1. For Windows:  `dotnet run --[DxH] --[quenchant] --result --project qs-windows.csproj`,
-   2. For Linux: `dotnet run --[DxH] --[quenchant] --result --project qs-linux.csproj`.
+   1. For Windows:  `dotnet run --[DxH] --[quenchant] --result --project qs-windows.sln`,
+   2. For Linux: `dotnet run --[DxH] --[quenchant] --result --project qs-linux.sln`.
 
 ## Examples
 
-The following command run the simulation for cylinder 50x150 with Aquatensid5% in Windows: `dotnet run --50x150 --aquatensid5% --project qs-windows.csproj`
+The following command run the simulation for cylinder 50x150 with Aquatensid5% in Windows: `dotnet run --50x150 --aquatensid5% --project qs-windows.sln`
 
-Run similar command to view results only on Linux: `dotnet run --50x150 --aquatensid5% --result --project qs-linux.csproj`
+Run similar command to view results only on Linux: `dotnet run --50x150 --aquatensid5% --result --project qs-linux.sln`
