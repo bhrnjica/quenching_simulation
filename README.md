@@ -4,6 +4,8 @@
 Authors:
 Bahrudin Hrnjica,Sefik Behrem, Faculty of Engineering, University of Bihac.
 
+doi:
+
 Journal: Advances in Production Engineering & Management
          Volume 17 | Number 1 | March 2022 
 
