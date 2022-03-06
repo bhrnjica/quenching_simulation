@@ -3,6 +3,7 @@
 # A new multi-objective optimization approach for process parameters optimization during numerical simulation of quenching steel parts 
 Authors:
 Bahrudin Hrnjica,Sefik Behrem, Faculty of Engineering, University of Bihac.
+
 Journal: Advances in Production Engineering & Management
          Volume 17 | Number 1 | March 2022 
 
