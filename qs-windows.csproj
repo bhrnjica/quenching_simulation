@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-	  <LangVersion>10.0</LangVersion>
+	<LangVersion>10.0</LangVersion>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Platforms>x64</Platforms>
     <Configurations>Debug;Release</Configurations>
-	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

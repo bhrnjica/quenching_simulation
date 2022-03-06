@@ -10,6 +10,8 @@
 	<Platforms>x64</Platforms>
 	<Configurations>Debug;Release</Configurations>
 	<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
 </Project>
