@@ -37,3 +37,13 @@ Supported arguments
 The following command run the simulation for cylinder 50x150 with Aquatensid5% in Windows: `dotnet run --50x150 --aquatensid5% --project qs-windows.csproj`
 
 Run similar command to view results only on Linux: `dotnet run --50x150 --aquatensid5% --result --project qs-linux.csproj`
+
+# Show Temperature field using `ResultViewer` 
+
+Run the following command in order to show `ResultViewer` - the windows forms applicaton which can show the temperature field of the axysymmetric profile.
+`dotnet run --project .\ResultViewerWnd\ResultViewer.csproj`
+
+From the File menu select Load Model and then select the results from the data folder:
+![](data/result_viewer.png)
+
+Once the model is loaded, press `Run` button and start the simulation of the temperature field.

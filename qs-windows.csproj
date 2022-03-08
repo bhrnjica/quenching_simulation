@@ -13,6 +13,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="common\**" />
+    <Compile Remove="ResultViewerWnd\**" />
+    <EmbeddedResource Remove="common\**" />
+    <EmbeddedResource Remove="ResultViewerWnd\**" />
+    <None Remove="common\**" />
+    <None Remove="ResultViewerWnd\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Daany.DataFrame" Version="1.2.0" />
     <PackageReference Include="Daany.LinA.win-x64" Version="1.2.1" />
     <PackageReference Include="XPlot.Plotly" Version="4.0.6" />

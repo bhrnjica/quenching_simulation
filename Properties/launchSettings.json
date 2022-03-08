@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "qs-windows": {
+      "commandName": "Project",
+      "commandLineArgs": "--50x150 --aquatensid5% "
+    }
+  }
+}
