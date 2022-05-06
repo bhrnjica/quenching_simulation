@@ -9,6 +9,9 @@ doi:https://doi.org/10.14743/apem2022.1.417
 Journal: Advances in Production Engineering & Management
          Volume 17 | Number 1 | March 2022 
 
+![2022-05-06_20-27-11](https://user-images.githubusercontent.com/1240016/167196909-d92124d6-d0df-4234-bfa3-15ee4ca5631d.gif)
+
+
 ## Paper Summary:
 
 The paper presents the numerical simulation of quenching a cylindrical sample of steel immersed in three different quenchants: water, 5% of aquatensid solution and isorapid oil. The quenching process starts from the initial temperature of the cylinder at 850 °C and then it moves through the air until it reaches the quenching bath. The quenchant is held at constant temperature of 400C. The cylinder is made of carefully selected steel which does not change its structure during quenching and heating. Cylindrical samples were manufactured in three different dimensions (R, H) [mm]: (12.5x100), (25x150) and (37.5x225) so that in each sample four measuring points were installed. Each measuring point consists of thermocouple installed beneath the cylinder surface capable of measuring the temperature every half second. Based on the experiment, the numerical simulation is recognized as transient and nonlinear two-dimensional heat conduction problem consisted of the two main tasks: direct heat transfer problem (DHTP) and inverse heat transfer problems (IHTP). 
